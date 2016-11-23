@@ -4,9 +4,11 @@
                       http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
   version="3.1"
   metadata-complete="true">
+  <display-name>seckill</display-name>
   <!--配置DispatcherServlet  -->
   <servlet>
   	<servlet-name>seckill-dispatcher</servlet-name>
+  	
   	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   		<!-- 配置springMVC需要加载的文件：spring-dao.xml,spring-service.xml,spring-web.xml
   			整合：Mybatis———>spring————>springmvc
@@ -22,5 +24,8 @@
   
   </servlet-mapping>
   
+  <welcome-file-list>
+  	<welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
   
   </web-app>
