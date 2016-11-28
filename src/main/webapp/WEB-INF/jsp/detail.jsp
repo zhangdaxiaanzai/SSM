@@ -63,7 +63,7 @@
 	<!-- jquery cookie操作插件 -->
 	<script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 	<!-- jquery countdown倒计时插件 -->
-	<script src="http://cdn.bootcss.com/jquery-countdown/2.0.1/jquery.countdown.min.js"></script>
+	<script src="http://cdn.bootcss.com/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
 	
 	<script src="../../resources/script/seckill.js"></script>
 	<script type="text/javascript">

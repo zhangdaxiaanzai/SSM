@@ -100,9 +100,24 @@
 	    <artifactId>servlet-api</artifactId>
 	    <version>2.5</version>
 	</dependency>
-	<!-- 数据库相关依赖 -->
 	
-	
+	<!-- redis客户端：Jedis -->
+	<dependency>
+	    <groupId>redis.clients</groupId>
+	    <artifactId>jedis</artifactId>
+	    <version>2.9.0</version>
+	</dependency>
+	<!-- protostuff序列化依赖 -->
+	<dependency>
+	    <groupId>com.dyuproject.protostuff</groupId>
+	    <artifactId>protostuff-core</artifactId>
+	    <version>1.0.10</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.dyuproject.protostuff</groupId>
+	    <artifactId>protostuff-runtime</artifactId>
+	    <version>1.0.10</version>
+	</dependency>
 	
 	
 	<!--spring相关依赖  -->
